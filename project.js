@@ -25,7 +25,9 @@ Details:    Today we will analyze a very common problem: building search algorit
                 
 */
 
+
 //DO NOT TOUCH!
+
 const jobs = [
     {
       job_id: 1,
@@ -826,4 +828,22 @@ const jobs = [
       fraudulent: 0,
     },
   ];
+  
+  for (let i = 0; i < jobs.length; i++) {
+    let x = jobs[i].title 
+    let y = jobs[i].location
+    let z = jobs[i].job_id
+    if (y.includes('US') && x.includes('Teacher')) {
+      console.log("Job ID " + z + " Location " + y +  " Job Title " + x )
+    }
+    //if (x.includes('T').) {
+    //console.log(x)
+    //}
+  }
+  
+ 
+    
+  
+  
+  
   //DO NOT TOUCH THE ARRAY ABOVE!
